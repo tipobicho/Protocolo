@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Protocolo de Sonhos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="index.html"><img src="cropped-cropped-Dourado.png" alt="Logo" class="logo"></a>
+        <nav class="nav-center"> 
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="sobre-nos.html" class="active">Sobre Nós</a></li>
+                <li><a href="newsletters.html">Newsletters</a></li>
+                <li><a href="Contactos.html">Contacto</a></li>
+               <li> <a href="index.html#formulario-section" class="reserve-button">Reserva</a></li>
+            </ul>
+            
+        </nav>
+        
+    </header>
+
+    <!-- Sobre Nós Section -->
+    <section class="sobre-nos">
+        <div class="container">
+            <div class="image-section">
+
+                <h1>Sobre Nós</h1>
+                <p> A Protocolo de Sonhos é uma empresa de referência no mercado de organização e gestão de eventos, que opera no mercado angolano. </p>
+                    <p>Fundada a 17 de Janeiro, em Luanda com o objetivo de oferecer excelentes serviços de protocolo,</p> 
+                    <p>a nossa empresa destaca-se pela sua dedicação à perfeição e detalhe em cada evento que organiza.</p>
+                    <p>Desde a sua criação, a Protocolo de Sonhos vem consolidando sua posição como empresa de referência no setor</p>
+                    <p>graças a uma equipe de profissionais altamente qualificados e experientes,</p> 
+                    <p>que trabalham incansavelmente para que cada evento seja um sucesso memorável.</p>
+                    <p> A nossa abordagem única combina criatividade, inovação e rigor protocolar,</p> 
+                    <p>garantindo que os eventos não só satisfazem, mas excedem as expectativas dos nossos clientes.</p>
+
+
+
+                <img src="sb.jpeg" alt="Equipe Protocolo de Sonhos">
+
+            </div>
+            
+            <div class="content-section">
+                <h1>Abordagem ao Planeamento e Execução de Eventos de Protocolo</h1>
+                <p>Na <strong>Protocolo de Sonhos</strong>, encaramos o planeamento e execução de eventos protocolares como uma arte, onde cada detalhe é meticulosamente planeado e executado para garantir o sucesso e satisfação dos nossos clientes e convidados. A nossa abordagem caracteriza-se pela meticulosidade, personalização e dedicação, resultando em eventos memoráveis e impecáveis.</p>
+                <ul>
+                    <li>Meticulosidade No Planeamento</li>
+                    <li>Personalização Para Cada Cliente</li>
+                    <li>Garantia De Sucesso Do Evento</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+/* Estilizando o título "Sobre Nós" */
+.sobre-nos h1 {
+    color: #d4af37; /* Altere para a cor desejada (ex: Dourado) */
+    font-size: 2rem; /* Ajuste o tamanho da fonte se necessário */
+    font-weight: bold; /* Deixe o texto mais espesso */
+    
+}
+
+
+
+
+
+
+
+
+
+.navbar {
+    position: fixed; /* Fixa a navbar no topo */
+    top: 0;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Reduzido o padding */
+    height: 60px; /* Diminuí a altura da navbar */
+    z-index: 1000; /* Certifica-se de que a navbar fica por cima do conteúdo */
+}
+
+.nav-center {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #fff; /* Cor dourada ao passar o mouse */
+}
+
+.navbar .logo {
+    height: 40px;
+}
+
+
+/* Estilo para o botão de reserva */
+.reserve-btn {
+    background-color:  #f1c232;; /* Cor dourada */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.reserve-btn:hover {
+    background-color: #e6b800;
+}
+
+.sobre-nos {
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    gap: 2rem;
+    
+}
+
+
+.container p{
+    font-family: "Times New Roman", Times, serif; /* Fonte Times New Roman */
+    font-size: 19 px;
+}
+.image-section img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.content-section {
+    max-width: 600px;
+    padding: 1rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    border-left: 5px solid #d4af37;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.content-section h1 {
+    color: #d4af37;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: "Times New Roman", Times, serif; /* Fonte Times New Roman */
+}
+
+.content-section p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: "Times New Roman", Times, serif; /* Fonte Times New Roman */
+}
+
+.content-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.content-section li {
+    padding: 0.5rem 0;
+    font-weight: bold;
+    position: relative;
+    padding-left: 2rem;
+    color: #d4af37;
+    font-family: "Times New Roman", Times, serif; /* Fonte Times New Roman */
+    font-size: 19px;
+}
+
+.content-section li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #d4af37;
+    font-size: 1.2rem;
+    font-family: "Times New Roman", Times, serif; /* Fonte Times New Roman */
+}
+
+
+.logo {
+    width: auto; /* Ajuste o tamanho do logotipo conforme necessário */
+    margin-bottom: 20px; /* Espaço entre o logotipo e o título */
+}
+
+
+    </style>
+
+
+
+<footer class="footer-section">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="cropped-cropped-Dourado.png" alt="Protocolo de Sonhos" class="footer-logo-image">
+            <p>Proporcionar experiências inesquecíveis através de um serviço personalizado e de elevada qualidade.</p>
+        </div>
+        
+        <div class="footer-menu">
+            <h4>Menu</h4>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="Sobre Nós.html">Sobre nós</a></li>
+                <li><a href="#contact">Contactos</a></li>
+                <li><a href="#newsletter">Newsletters</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contacts">
+            <h4>Contactos</h4>
+            <p>Benfica, Centro Comercial Clemência, loja N. 7</p>
+            <p>+244 929 606 240</p>
+            <p>comercial@protocolodesonhos.ao</p>
+        </div>
+
+        <div class="footer-social">
+            <h4>Redes Sociais</h4>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
